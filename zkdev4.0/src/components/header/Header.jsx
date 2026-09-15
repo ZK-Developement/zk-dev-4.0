@@ -2,7 +2,7 @@ import logo from "../../assets/images/zk-logo.jpg"
 
 function Header() {
     return (
-        <header className="w-full h-[60px] flex items-center justify-center my-[29px]">
+        <header className="w-full h-[60px] flex items-center justify-center my-[29px] fixed">
             <div className="lqglass rounded-[50px] flex w-fit max-w-[95%] h-[60px] items-center my-[29px] mx-[20px]  min-[1280px]:w-[1220px]
                             max-[810px]:h-[40px] max-[810px]:px-[10px] max-[810px]:justify-between max-[810px]:w-full">
                 <div className="flex ml-[10px] w-[200px] justify-center items-center
