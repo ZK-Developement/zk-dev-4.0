@@ -4,6 +4,9 @@ function Oferta (){
                             max-[1280px]:w-[1050px] 
                             max-[400px]:h-[550px]">
             <div>
+                <dov>
+                    
+                </dov>
 
             </div>
         </section>
