@@ -10,8 +10,8 @@ function Footer (){
                             <p className="h-[18px]">e-mail: contactus.zk.business@gmail.com</p>
                         </div>
                         <div className="text-[14px] text-gray-600">
-                            <p className="h-[18px]">tel:  48+ 574 668 418</p>
-                            <p className="h-[18px]">e-mail: contactus.zk.business@gmail.com</p>
+                            <p className="h-[18px]">Poniedziałek—piątek: 10:00-20:00</p>
+                            <p className="h-[18px]">Sobota: 14:00-20:00</p>
                         </div>
                     </div>
                     <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-gray-800">

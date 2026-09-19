@@ -137,7 +137,9 @@ function Header() {
             className="w-full h-[60px] flex items-center justify-center my-[29px] fixed z-[99]"
         >
             <div className="lqglass rounded-[50px] flex w-fit max-w-[95%] h-[60px] items-center my-[29px] mx-[20px] min-[1280px]:w-[1220px]
-                            max-[810px]:h-[40px] max-[810px]:px-[10px] max-[810px]:justify-between max-[810px]:w-full">
+                            max-[810px]:h-[40px] max-[810px]:px-[10px] max-[810px]:justify-between max-[810px]:w-full"
+                            style={{ backdropFilter: 'blur(8px) saturate(1.8) brightness(1.15) contrast(1.05)',
+                                    WebkitBackdropFilter: 'blur(8px) saturate(1.8) brightness(1.15) contrast(1.05)'}}>
                 <div className="flex ml-[10px] w-[200px] justify-center items-center
                                 max-[800px]:w-[100px]">
                     <div className="logo-zmienne group relative mx-[10px] h-[38px] w-[38px] shrink-0
