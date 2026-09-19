@@ -1,3 +1,5 @@
+import arrow from "../../assets/images/arrow.svg"
+
 function Portfolio (){
     return(
         <section className=" w-[1280px] h-[401px] flex justify-center items-center mt-[60px]
@@ -19,6 +21,13 @@ function Portfolio (){
                     <div className="w-[208px] h-[269px] bg-[linear-gradient(to_right,_#73737300,_#424242)] rounded-[30px]"></div>
                     <div className="w-[358px] h-[269px] bg-[linear-gradient(to_right,_#424242,_#424242)] rounded-[30px]"></div>
                     <div className="w-[208px] h-[269px] bg-[linear-gradient(to_left,_#73737300,_#424242)] rounded-[30px]"></div>
+                    <button className="h-[35px] w-[35px] absolute bg-[#D9D9D910] rounded-[10px] cursor-pointer translate-x-[-350px] rotate-[180deg] shadow-[0_4px_30px_rgba(0,0,0,0.10)">
+                        <img src={arrow} alt="arrow" />
+                    </button>
+                    <button className="h-[35px] w-[35px] absolute bg-[#D9D9D910] rounded-[10px] cursor-pointer translate-x-[350px] shadow-[0_4px_30px_rgba(0,0,0,0.10)">
+                        <img src={arrow} alt="arrow" />
+                    </button>
+                    
                 </div>
 
             </div>

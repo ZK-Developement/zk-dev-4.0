@@ -4,6 +4,8 @@ import Onas from './components/o-nas/o-nas'
 import Oferta from './components/oferta/oferta'
 import Pakiety from './components/pakiety/pakiety'
 import Portfolio from './components/portfolio/portfolio'
+import Kontakt from './components/kontakt/kontakt'
+import Footer from './components/footer/footer'
 import "tailwindcss"
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
         <Oferta />
         <Pakiety />
         <Portfolio />
+        <Kontakt />
       </main>
+      <Footer />
     </>
   )
 }
