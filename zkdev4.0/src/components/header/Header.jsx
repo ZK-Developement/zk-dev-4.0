@@ -152,20 +152,22 @@ function Header() {
                 <nav className="flex h-[60px] items-center min-[1280px]:ml-[470px] min-[800px]:ml-[280px]">
                     <ul className="flex items-center justify-center gap-[20px] text-[16px] font-normal whitespace-nowrap
                                    max-[810px]:hidden min-[1280px]:flex">
-                        <li><a href="#" className="tekst-zmienny text-black transition-colors duration-200">O nas</a></li>
-                        <li><a href="#" className="tekst-zmienny text-black transition-colors duration-200">Oferta</a></li>
-                        <li><a href="#" className="tekst-zmienny text-black transition-colors duration-200">Pakiety</a></li>
-                        <li><a href="#" className="tekst-zmienny text-black transition-colors duration-200">Portfolio</a></li>
-                        <li><a href="#" className="tekst-zmienny text-black transition-colors duration-200">Kontakt</a></li>
+                        <li><a href="#onas" className="tekst-zmienny text-black transition-colors duration-200">O nas</a></li>
+                        <li><a href="#oferta" className="tekst-zmienny text-black transition-colors duration-200">Oferta</a></li>
+                        <li><a href="#pakiety" className="tekst-zmienny text-black transition-colors duration-200">Pakiety</a></li>
+                        <li><a href="#portfolio" className="tekst-zmienny text-black transition-colors duration-200">Portfolio</a></li>
+                        <li><a href="#kontakt" className="tekst-zmienny text-black transition-colors duration-200">Kontakt</a></li>
                     </ul>
                 </nav>
-                <div className="lqglass h-[30px] rounded-[50px] flex items-center justify-center ml-[30px] shrink-0
-                                min-[1280px]:ml-[30px] max-[810px]:h-[20px] min-[800px]:mr-[20px]">
-                    <div className="bg-green-600 rounded-[50px] h-[10px] w-[10px] mx-[10px] pulse-light"></div>
-                    <p className="tekst-zmienny text-black transition-colors duration-200 text-[13px] pr-[15px] whitespace-nowrap
-                                  max-[810px]:text-[10px]">
-                        Dostępni do pracy</p>
-                </div>
+                <a href="#kontakt">
+                    <div className="lqglass h-[30px] rounded-[50px] flex items-center justify-center ml-[30px] shrink-0
+                                    min-[1280px]:ml-[30px] max-[810px]:h-[20px] min-[800px]:mr-[20px]">
+                        <div className="bg-green-600 rounded-[50px] h-[10px] w-[10px] mx-[10px] pulse-light"></div>
+                        <p className="tekst-zmienny text-black transition-colors duration-200 text-[13px] pr-[15px] whitespace-nowrap
+                                    max-[810px]:text-[10px]">
+                            Dostępni do pracy</p>
+                    </div>
+                </a>
             </div>
         </header>
     );

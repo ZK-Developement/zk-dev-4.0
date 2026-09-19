@@ -6,9 +6,10 @@ import phone from "../../assets/images/phone.png"
 
 function Onas() {
     return (
+
         <section className=" w-[1280px] h-[675px] flex justify-center items-center
                             max-[1280px]:w-[1050px] 
-                            max-[400px]:h-[550px]" >
+                            max-[400px]:h-[550px]" id="onas" >
             <div className="adaptive-bg bg-white w-[1220px] h-[675px] rounded-[20px] shadow-[0_4px_30px_rgba(0,0,0,0.10)]
                                flex items-center pl-[65px] bg-[length:100%_100%] bg-center
                                max-[1280px]:w-[1050px] 

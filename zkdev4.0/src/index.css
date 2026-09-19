@@ -79,3 +79,18 @@ p{
         box-shadow: 0 0 10px rgba(34, 197, 94, 0.8);
     }
 }
+#onas {
+    scroll-margin-top: 120px;
+}
+#oferta {
+    scroll-margin-top: 110px;
+}
+#pakiety {
+    scroll-margin-top: 140px;
+}
+#portfolio {
+    scroll-margin-top: 120px;
+}
+#kontakt {
+    scroll-margin-top: 120px;
+}
