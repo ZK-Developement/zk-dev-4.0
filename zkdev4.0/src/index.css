@@ -43,12 +43,8 @@ body::-webkit-scrollbar {
 p{
   font-family: 'Inter' , sans-serif;
 }
+
 .lqglass
-{
-    background: rgba(255, 0, 0, 0.5);
-    backdrop-filter: blur(8px);
-}
-.lqglass-stare
 {
     background: rgba(255, 255, 255, 0.12);
     backdrop-filter:
