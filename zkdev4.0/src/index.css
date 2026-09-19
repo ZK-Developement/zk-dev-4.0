@@ -56,6 +56,6 @@ p{
         0 4px 20px rgba(0, 0, 0, 0.1);
 }
 .tekst-zmienny{
-  color: white;
+  color: rgb(0, 0, 0);
   mix-blend-mode: difference;
 }

@@ -1,5 +1,4 @@
 import logo from "../../assets/images/zk-logo.jpg"
-import logonobg from "../../assets/images/zk-logo-nobg.png"
 import bgimage from "../../assets/images/homepage.jpg"
 import messageicon from "../../assets/images/messageicon.svg"
 import offericon from "../../assets/images/offericon.svg"

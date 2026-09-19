@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/header/Header'
 import Onas from './components/o-nas/o-nas'
 import Oferta from './components/oferta/oferta'
+import Pakiety from './components/pakiety/pakiety'
 import "tailwindcss"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <main className='flex flex-col w-full justify-center items-center pt-[120px]'>
         <Onas />
         <Oferta />
+        <Pakiety />
       </main>
     </>
   )

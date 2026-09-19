@@ -1,0 +1,64 @@
+import bgimage from "../../assets/images/homepage.jpg"
+
+function Pakiety (){
+    return(
+        <section className=" w-[1280px] h-[1590px] flex justify-center items-center mt-[30px]
+                            max-[1280px]:w-[1050px] 
+                            max-[400px]:h-[550px]">
+            <div className="adaptive-bg bg-white w-[1220px] h-[1590px] rounded-[20px] shadow-[0_4px_30px_rgba(0,0,0,0.10)]
+                                           flex pl-[30px] bg-[length:100%_100%] bg-center
+                                           max-[1280px]:w-[1050px] 
+                                           max-[800px]:w-[740px] max-[800px]:pl-[40px]
+                                           max-[400px]:w-[340px] max-[400px]:pt-[100px] max-[400px]:h-[550px] max-[400px]:bg-[length:100%_100%] max-[400px]:bg-center max-[400px]:pl-[20px]" 
+                                           >
+                <div className="flex flex-col h-[675px] w-[250px] mr-[30px] pt-[70px] bg-amber-100">
+                    <p className="text-black text-[32px] font-semibold mb-[15px]">Wybierz pakiet :</p>
+                    <p className="text-black text-[18px] font-regular leading-4 w-[230px]">Wybierz pakiet idealnie dobrany do twoich potrzeb lub wyceń swój projekt.</p>
+                </div>
+                <div className="float-right flex flex-col h-[993px] w-[890px] justify-center items-center px-[20px] mt-[40px] ">
+                    <div className="lqglass w-[885px] h-[993px] rounded-[30px] grid grid-cols-2 justify-center items-center p-[30px] gap-[25px] ">
+                        <div className="bg-white flex flex-col w-[400px] h-[456px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] rounded-[20px] p-[30px] pt-[150px]">
+                            <p className="text-black text-[32px] font-semibold mb-[25px]">One Page</p>
+                            <p className="text-black text-[32px] font-regular mb-[25px]">500zł</p>
+                            <p className="text-black text-[15px] font-regular leading-4 w-[348px] mb-[25px]">Prosta i estetyczna strona dla małych firm i usługodawców. Zawiera najważniejsze informacje o firmie, ofertę, kontakt i podstawowe elementy potrzebne do profesjonalnej prezentacji w internecie.</p>
+                            <div className="flex justify-center">
+                                <button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
+                                >Kontakt</button>
+                            </div>
+                        </div>
+                        <div className="bg-white flex flex-col w-[400px] h-[456px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] rounded-[20px] p-[30px] pt-[150px]
+                                         border-black border-6 flex flex-col">
+                            <div className="flex justify-center">
+                                <div className=" bg-black px-[18px] py-[3px] justify-center items-center flex text-white text-[16px] font-bold rounded-[20px] absolute translate-y-[-170px]">
+                                    <p>Najczęściej wybierane</p>
+                                </div>
+                            </div>
+                            <p className="text-black text-[32px] font-semibold mb-[25px]">Strona Firmowa</p>
+                            <p className="text-black text-[32px] font-regular mb-[25px]">1000zł</p>
+                            <p className="text-black text-[15px] font-regular leading-4 w-[348px] mb-[25px]">Kompletna strona firmowa z osobnymi podstronami, np. Strona główna, O firmie, Oferta, Galeria i Kontakt. Sprawdza się przy większej ilości informacji i bardziej rozbudowanej prezentacji firmy.</p>
+                            <div className="flex justify-center">
+                                <button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
+                                >Kontakt</button>
+                            </div>
+                            
+
+                        </div>
+                        <div className=" col-span-2 bg-white flex flex-col w-[829px] h-[456px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] rounded-[20px] p-[30px] pt-[190px] bg-center bg-[length:100%_100%]"
+                        style={{ backgroundImage: `url(${bgimage})` }}>
+                            <p className="text-black text-[32px] font-semibold mb-[25px]">Wycena Indywidualna</p>
+                            <p className="text-black text-[32px] font-regular mb-[25px]">1500zł</p>
+                            <p className="text-black text-[15px] font-regular leading-4 w-[700px] mb-[25px]">Projekt dopasowany do konkretnych potrzeb firmy. Obejmuje niestandardowe funkcje, dodatkowe podstrony, integracje i rozwiązania, których nie ma w standardowych pakietach. Cena zależy od zakresu projektu.</p>
+                            <div className="flex justify-center">
+                                <button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
+                                >Kontakt</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+    );
+}
+export default Pakiety;
