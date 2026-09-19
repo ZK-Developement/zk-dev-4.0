@@ -39,7 +39,7 @@ function Footer (){
                         </div>
                         <p className="text-[10px] text-gray-500">POLITYKA PRYWATNOŚCI</p>
                         <div className="text-[14px] text-gray-600">
-                            <p className="h-[18px] underline cursor-pointer">Polityka Prywatności</p>
+                            <p className="h-[18px] underline cursor-pointer">Polityka Prywatności - w krótce dostępne</p>
                         </div>
                     </div>
                 </div>

@@ -29,8 +29,8 @@ function Pakiety (){
                                 <p className="text-black text-[32px] font-regular mb-[25px]">500zł</p>
                                 <p className="text-black text-[15px] font-regular leading-4 w-[348px] mb-[25px]">Prosta i estetyczna strona dla małych firm i usługodawców. Zawiera najważniejsze informacje o firmie, ofertę, kontakt i podstawowe elementy potrzebne do profesjonalnej prezentacji w internecie.</p>
                                 <div className="flex justify-center">
-                                    <button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
-                                    >Kontakt</button>
+                                    <a href="#kontakt" ><button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
+                                    >Kontakt</button></a>
                                 </div>
                             </div>
                             <div className="bg-white flex flex-col w-[400px] h-[456px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] rounded-[20px] p-[30px] pt-[150px]
@@ -44,8 +44,8 @@ function Pakiety (){
                                 <p className="text-black text-[32px] font-regular mb-[25px]">1000zł</p>
                                 <p className="text-black text-[15px] font-regular leading-4 w-[348px] mb-[25px]">Kompletna strona firmowa z osobnymi podstronami, np. Strona główna, O firmie, Oferta, Galeria i Kontakt. Sprawdza się przy większej ilości informacji i bardziej rozbudowanej prezentacji firmy.</p>
                                 <div className="flex justify-center">
-                                    <button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
-                                    >Kontakt</button>
+                                    <a href="#kontakt" ><button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
+                                    >Kontakt</button></a>
                                 </div>
                                 
 
@@ -56,8 +56,8 @@ function Pakiety (){
                                 <p className="text-black text-[32px] font-regular mb-[25px]">1500zł</p>
                                 <p className="text-black text-[15px] font-regular leading-4 w-[700px] mb-[25px]">Projekt dopasowany do konkretnych potrzeb firmy. Obejmuje niestandardowe funkcje, dodatkowe podstrony, integracje i rozwiązania, których nie ma w standardowych pakietach. Cena zależy od zakresu projektu.</p>
                                 <div className="flex justify-center">
-                                    <button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
-                                    >Kontakt</button>
+                                    <a href="#kontakt" ><button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
+                                    >Kontakt</button></a>
                                 </div>
                             </div>
                         </div>
