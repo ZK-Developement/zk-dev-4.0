@@ -14,11 +14,11 @@ function Pakiety (){
                 <div className="flex">
                     <div className="flex flex-col h-[993px] w-[250px] mr-[30px] pt-[60px] ">
                         <div className="mb-[630px]">
-                            <p className="text-black text-[32px] font-semibold mb-[15px]">Wybierz pakiet:</p>
+                            <p className="text-black text-[32px] font-semibold mb-[15px] leading-7">Wybierz pakiet:</p>
                             <p className="text-black text-[18px] font-regular leading-4.5 w-[230px]">Wybierz pakiet idealnie dobrany do twoich potrzeb lub wyceń swój projekt.</p>
                         </div>
                         <div>
-                            <p className="text-black text-[32px] font-semibold mb-[15px]">Nie wiesz, który pakiet wybrać?</p>
+                            <p className="text-black text-[32px] font-semibold mb-[15px] leading-7">Nie wiesz, który pakiet wybrać?</p>
                             <p className="text-black text-[18px] font-regular leading-4.5 w-[230px]">Dobierzemy rozwiązanie do Twojej firmy, budżetu i potrzeb. Każdy projekt możemy dostosować do konkretnych wymagań.</p>
                         </div>
                     </div>
