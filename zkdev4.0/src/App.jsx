@@ -3,6 +3,7 @@ import Header from './components/header/Header'
 import Onas from './components/o-nas/o-nas'
 import Oferta from './components/oferta/oferta'
 import Pakiety from './components/pakiety/pakiety'
+import Portfolio from './components/portfolio/portfolio'
 import "tailwindcss"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Onas />
         <Oferta />
         <Pakiety />
+        <Portfolio />
       </main>
     </>
   )
