@@ -42,7 +42,7 @@ function Portfolio (){
                 <div className=" flex flex-col h-[301px] w-[400px] justify-center mt-[80px] pl-[30px]">
                     <p className="text-white font-semibold text-[24px] w-[272px] mb-[20px]">Sprawdź nasze poprzednie projekty !</p>
                     <p className="text-white text-[16px] opacity-50 leading-4.5 w-[316px] mb-[60px] font-light ">Posiadamy Bazę zadowolonych klientów z naszych usług od stron internetowych do designu stron po projekty graficzne.</p>
-                    <a href="#kontakt" ><button className="bg-white w-[221px] h-[43px] text-black font-semibold text-[16px] rounded-[15px] cursor-pointer ">
+                    <a href="#kontakt" ><button className="bg-white hover:bg-[radial-gradient(circle,_#CAC8C8,_#D1D1D1)] transition-all duration-500 w-[221px] h-[43px] text-black font-semibold text-[16px] rounded-[15px] cursor-pointer ">
                         Kontakt</button></a>
                 </div>
                 <div className="relative h-[401px] flex-1 min-w-0">

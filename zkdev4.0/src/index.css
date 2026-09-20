@@ -53,6 +53,11 @@ p{
         inset 1.5px 1.5px 0 rgba(255, 255, 255, 0.5),
         inset 0 0 12px rgba(255, 255, 255, 0.2),
         0 4px 20px rgba(0, 0, 0, 0.1);
+        transition: 300ms;
+}
+.lqglass:hover
+{
+    background: rgba(0, 0, 0, 0.036);
 }
 .pulse-light {
     animation: pulse-light 1s ease-in-out infinite;

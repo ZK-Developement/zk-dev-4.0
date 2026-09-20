@@ -54,7 +54,7 @@ function Kontakt () {
                         <textarea className="bg-[#383838] mb-[10px] rounded-[15px] w-[629px] h-[305px] border-2 border-[#656565] p-[20px] resize-none" 
                         name="message" id="textarea" placeholder="Opisz Swój projekt, lub napisz ważne informacje odnośnie projektu lub usług w tym miejscu."></textarea><br/>
                         <div className="flex justify-center mt-[25px]">
-                            <button type="submit" className="bg-white text-black font-medium text-[20px] h-[41px] w-[211px] rounded-[10px] cursor-pointer">Wyślij</button>
+                            <button type="submit" className="bg-white hover:bg-[radial-gradient(circle,_#CAC8C8,_#D1D1D1)] transition-all duration-500 text-black font-medium text-[20px] h-[41px] w-[211px] rounded-[10px] cursor-pointer">Wyślij</button>
                         </div>
                         
                     </form>

@@ -19,9 +19,9 @@ function Design (){
                     <div className="bg-[radial-gradient(circle,_#878686,_#656565)]  px-[11px] rounded-[15px] w-[345px] mb-[109px]">
                         <p className=" ml-[4px] text-[12px] w-[328px] bg-[linear-gradient(to_right,_#D5D5D5,_#FFFFFF)] bg-clip-text text-transparent font-semibold">Projekt ➜ Konsultacja ➜ Poprawki ➜ Programowanie</p>
                     </div>
-                    <div className="bg-[radial-gradient(circle,_#D1D1D1,_#FFFFFF)] text-black text-[16px] font-semibold w-[221px] h-[43px] flex justify-center items-center rounded-[15px]">
-                        <a href="#pakiety"><button className="cursor-pointer ">Sprawdź Ofertę</button></a>
-                    </div>
+                    <a href="#pakiety"><div className="bg-[radial-gradient(circle,_#D1D1D1,_#FFFFFF)] hover:bg-[radial-gradient(circle,_#CAC8C8,_#D1D1D1)] transition-all duration-500 cursor-pointer text-black text-[16px] font-semibold w-[221px] h-[43px] flex justify-center items-center rounded-[15px] ">
+                        <button className="cursor-pointer">Sprawdź Ofertę</button>
+                    </div></a>
                 </div>
                 <div className=" flex flex-col w-[690px] float-right items-center">
                     <a href="#kontakt">
