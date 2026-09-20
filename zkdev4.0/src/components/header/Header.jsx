@@ -140,7 +140,7 @@ function Header() {
                             max-[810px]:h-[40px] max-[810px]:px-[10px] max-[810px]:justify-between max-[810px]:w-full"
                             style={{ backdropFilter: 'blur(8px) saturate(1.8) brightness(1.15) contrast(1.05)',
                                     WebkitBackdropFilter: 'blur(8px) saturate(1.8) brightness(1.15) contrast(1.05)'}}>
-                <div className="flex ml-[10px] w-[200px] justify-center items-center
+                <a href="#onas"><div className="flex ml-[10px] w-[200px] justify-center items-center
                                 max-[800px]:w-[100px]">
                     <div className="logo-zmienne group relative mx-[10px] h-[38px] w-[38px] shrink-0
                                     max-[810px]:h-[28px] max-[810px]:w-[28px]">
@@ -150,7 +150,7 @@ function Header() {
                     <p className="tekst-zmienny text-black transition-colors duration-200 mr-[30px] text-[16px] whitespace-nowrap
                                   max-[810px]:text-[13px] max-[810px]:mr-[10px]">
                         Development</p>
-                </div>
+                </div></a>
                 <nav className="flex h-[60px] items-center min-[1280px]:ml-[470px] min-[800px]:ml-[280px]">
                     <ul className="flex items-center justify-center gap-[20px] text-[16px] font-normal whitespace-nowrap
                                    max-[810px]:hidden min-[1280px]:flex">

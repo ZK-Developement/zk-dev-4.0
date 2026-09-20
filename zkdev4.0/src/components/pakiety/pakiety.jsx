@@ -64,8 +64,8 @@ function Pakiety (){
                         
                     </div>
                 </div>
-                <div className="bg-white rounded-[20px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] w-[1166px] h-[543px] mt-[50px]">
-                    <div className="grid grid-cols-4  w-full h-full py-[20px] px-[30px] gap-[10px]">
+                <div className="bg-[radial-gradient(circle,_#EDEDED,_#FFFFFF)] rounded-[20px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] w-[1166px] h-[543px] mt-[50px]">
+                    <div className="grid grid-cols-4  w-full h-full py-[20px] px-[30px] gap-[10px] mt-[10px]">
                         <div className="flex flex-col text-[16px]  font-medium text-black">
                             <p className="text-[30px] font-bold mb-[30px] text-black ">Funkcja:</p>
                             <p className="mb-[2px]">Cena</p>
