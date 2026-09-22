@@ -36,7 +36,7 @@ function Kontakt () {
                     <p className="text-[24px] font-semibold">Skontaktuj się z nami</p>
                     <p className="leading-5 w-[328px]">Napisz do nas, opisz swój pomysł lub czego potrzebujesz, a postaramy się odpowiedzieć tak szybko, jak będzie to możliwe.</p>
                     <p className="text-gray-600 w-[280px] ">Napisz do nas lub zadzwoń na 
-                       +48 791 203 396</p>
+                       +48 (w krótce dostępne)</p>
                     <div className="text-gray-500 ">
                         <p>Poniedziałek—piątek: 10:00-20:00</p>
                         <p>Sobota & Niedziela: 14:00-20:00</p>

@@ -6,7 +6,7 @@ function Footer (){
                     <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-black">
                         <p className="text-[10px] text-gray-500">KONTAKT</p>
                         <div className="text-[14px] ">
-                            <a href="tel:48+791203396"><p className="h-[18px]">tel:  48+ 791 203 396</p></a>
+                            <a href="tel:48+791203396"><p className="h-[18px]">tel: +48 (w krótce dostępne)</p></a>
                             <a href="mailto:contactus.zk.business@gmail.com"><p className="h-[18px]">e-mail: contactus.zk.business@gmail.com</p></a>
                         </div>
                         <div className="text-[14px] text-gray-600">

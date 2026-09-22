@@ -87,7 +87,3 @@ p{
 #kontakt {
     scroll-margin-top: 120px;
 }
-.checked input:invalid,
-.checked textarea:invalid {
-    border: 1px solid red;
-}
