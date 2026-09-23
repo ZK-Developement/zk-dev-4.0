@@ -1,9 +1,9 @@
 function Footer (){
     return(
         <footer className="w-full flex my-[29px]">
-            <div className="bg-white rounded-[20px] w-full h-[310px] shadow-[0_-4px_30px_rgba(0,0,0,0.10)] ">
-                <div className="p-[30px] flex gap-[60px] justify-center">
-                    <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-black">
+            <div className="bg-white rounded-[20px] w-full h-[310px] shadow-[0_-4px_30px_rgba(0,0,0,0.10)] max-[400px]:h-[700px]">
+                <div className="p-[30px] flex gap-[60px] justify-center max-[400px]:flex-col max-[400px]:h-[700px] max-[400px]:p-0 max-[400px]:justify-center max-[400px]:items-center max-[400px]:gap-[5px]">
+                    <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-black max-[400px]:h-[160px]">
                         <p className="text-[10px] text-gray-500">KONTAKT</p>
                         <div className="text-[14px] ">
                             <a href="tel:48+791203396"><p className="h-[18px]">tel: +48 (w krótce dostępne)</p></a>
@@ -42,7 +42,7 @@ function Footer (){
                         </div>
                     </div>
                 </div>
-                <div className="bg-white w-full h-[53px] shadow-[0_-4px_30px_rgba(0,0,0,0.10)] p-[30px] flex absolute justify-center items-center">
+                <div className="bg-white w-full h-[53px] shadow-[0_-4px_30px_rgba(0,0,0,0.10)] p-[30px] flex absolute justify-center items-center max-[400px]:whitespace-nowrap">
                     <p className="text-gray-800 opacity-50 text-[13px]">© 2026 Zk Development — Wszelkie prawa zastrzeżone</p>
                 </div>
             </div>

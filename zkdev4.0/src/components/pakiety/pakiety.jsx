@@ -4,14 +4,14 @@ function Pakiety (){
     return(
         <section className=" w-[1280px] h-[1590px] flex justify-center items-center mt-[60px]
                             max-[1280px]:w-[1050px] 
-                            max-[400px]:h-[550px]" id="pakiety">
+                            max-[400px]:h-[550px] max-[400px]:mt-[30px]" id="pakiety">
             <div className="adaptive-bg bg-white w-[1220px] h-[1650px] rounded-[20px] shadow-[0_4px_30px_rgba(0,0,0,0.10)]
                                            flex flex-col pl-[30px] bg-[length:100%_100%] bg-center
                                            max-[1280px]:w-[1050px] 
                                            max-[800px]:w-[740px] max-[800px]:pl-[40px]
                                            max-[400px]:w-[340px] max-[400px]:pt-[100px] max-[400px]:h-[550px] max-[400px]:bg-[length:100%_100%] max-[400px]:bg-center max-[400px]:pl-[20px]" 
                                            >
-                <div className="flex">
+                <div className="flex max-[400px]:hidden">
                     <div className="flex flex-col h-[993px] w-[250px] mr-[30px] pt-[60px] ">
                         <div className="mb-[630px]">
                             <p className="text-black text-[32px] font-semibold mb-[15px] leading-7">Wybierz pakiet:</p>
@@ -64,7 +64,7 @@ function Pakiety (){
                         
                     </div>
                 </div>
-                <div className="bg-[radial-gradient(circle,_#EDEDED,_#FFFFFF)] rounded-[20px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] w-[1166px] h-[543px] mt-[50px]">
+                <div className="bg-[radial-gradient(circle,_#EDEDED,_#FFFFFF)] rounded-[20px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] w-[1166px] h-[543px] mt-[50px] max-[400px]:hidden">
                     <div className="grid grid-cols-4  w-full h-full py-[20px] px-[30px] gap-[10px] mt-[10px]">
                         <div className="flex flex-col text-[16px]  font-medium text-black">
                             <p className="text-[30px] font-bold mb-[30px] text-black ">Funkcja:</p>
