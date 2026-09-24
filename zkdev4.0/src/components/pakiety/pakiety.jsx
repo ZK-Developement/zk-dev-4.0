@@ -15,11 +15,11 @@ function Pakiety (){
                     <div className="flex flex-col h-[993px] w-[250px] mr-[30px] pt-[60px] ">
                         <div className="mb-[630px]">
                             <p className="text-black text-[32px] font-semibold mb-[15px] leading-7">Wybierz pakiet:</p>
-                            <p className="text-black text-[18px] font-regular leading-4.5 w-[230px]">Wybierz pakiet idealnie dobrany do twoich potrzeb lub wyceń swój projekt.</p>
+                            <p className="text-black text-[18px] font-regular leading-4.5 w-[230px] opacity-70">Wybierz pakiet idealnie dobrany do twoich potrzeb lub wyceń swój projekt.</p>
                         </div>
                         <div>
                             <p className="text-black text-[32px] font-semibold mb-[15px] leading-7">Nie wiesz, który pakiet wybrać?</p>
-                            <p className="text-black text-[18px] font-regular leading-4.5 w-[230px]">Dobierzemy rozwiązanie do Twojej firmy, budżetu i potrzeb. Każdy projekt możemy dostosować do konkretnych wymagań.</p>
+                            <p className="text-black text-[18px] font-regular leading-4.5 w-[230px] opacity-70">Dobierzemy rozwiązanie do Twojej firmy, budżetu i potrzeb. Każdy projekt możemy dostosować do konkretnych wymagań.</p>
                         </div>
                     </div>
                     <div className="float-right flex flex-col h-[993px] w-[890px] justify-center items-center px-[20px] mt-[30px] ">
@@ -27,7 +27,7 @@ function Pakiety (){
                             <div className="bg-white flex flex-col w-[400px] h-[456px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] rounded-[20px] p-[30px] pt-[150px]">
                                 <p className="text-black text-[32px] font-semibold mb-[25px]">One Page</p>
                                 <p className="text-black text-[32px] font-regular mb-[25px]">500zł</p>
-                                <p className="text-black text-[15px] font-regular leading-4 w-[348px] mb-[25px]">Prosta i estetyczna strona dla małych firm i usługodawców. Zawiera najważniejsze informacje o firmie, ofertę, kontakt i podstawowe elementy potrzebne do profesjonalnej prezentacji w internecie.</p>
+                                <p className="text-black text-[15px] font-regular leading-4 w-[348px] mb-[25px] opacity-70">Prosta i estetyczna strona dla małych firm i usługodawców. Zawiera najważniejsze informacje o firmie, ofertę, kontakt i podstawowe elementy potrzebne do profesjonalnej prezentacji w internecie.</p>
                                 <div className="flex justify-center">
                                     <a href="#kontakt" ><button className="bg-[radial-gradient(circle,_#393939,_#252525)] hover:bg-[radial-gradient(circle,_#6C6C6C,_#454545)] transition-all duration-500 text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
                                     >Kontakt</button></a>
@@ -42,7 +42,7 @@ function Pakiety (){
                                 </div>
                                 <p className="text-black text-[32px] font-semibold mb-[25px]">Strona Firmowa</p>
                                 <p className="text-black text-[32px] font-regular mb-[25px]">1000zł</p>
-                                <p className="text-black text-[15px] font-regular leading-4 w-[348px] mb-[25px]">Kompletna strona firmowa z osobnymi podstronami, np. Strona główna, O firmie, Oferta, Galeria i Kontakt. Sprawdza się przy większej ilości informacji i bardziej rozbudowanej prezentacji firmy.</p>
+                                <p className="text-black text-[15px] font-regular leading-4 w-[348px] mb-[25px] opacity-70">Kompletna strona firmowa z osobnymi podstronami, np. Strona główna, O firmie, Oferta, Galeria i Kontakt. Sprawdza się przy większej ilości informacji i bardziej rozbudowanej prezentacji firmy.</p>
                                 <div className="flex justify-center">
                                     <a href="#kontakt" ><button className="bg-[radial-gradient(circle,_#393939,_#252525)] hover:bg-[radial-gradient(circle,_#6C6C6C,_#454545)] transition-all duration-500 text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
                                     >Kontakt</button></a>
@@ -54,7 +54,7 @@ function Pakiety (){
                             style={{ backgroundImage: `url(${bgimage})` }}>
                                 <p className="text-black text-[32px] font-semibold mb-[25px]">Wycena Indywidualna</p>
                                 <p className="text-black text-[32px] font-regular mb-[25px]">1500zł</p>
-                                <p className="text-black text-[15px] font-regular leading-4 w-[700px] mb-[25px]">Projekt dopasowany do konkretnych potrzeb firmy. Obejmuje niestandardowe funkcje, dodatkowe podstrony, integracje i rozwiązania, których nie ma w standardowych pakietach. Cena zależy od zakresu projektu.</p>
+                                <p className="text-black text-[15px] font-regular leading-4 w-[700px] mb-[25px] opacity-70">Projekt dopasowany do konkretnych potrzeb firmy. Obejmuje niestandardowe funkcje, dodatkowe podstrony, integracje i rozwiązania, których nie ma w standardowych pakietach. Cena zależy od zakresu projektu.</p>
                                 <div className="flex justify-center">
                                     <a href="#kontakt" ><button className="bg-[radial-gradient(circle,_#393939,_#252525)] hover:bg-[radial-gradient(circle,_#6C6C6C,_#454545)] transition-all duration-500 text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"
                                     >Kontakt</button></a>
@@ -84,7 +84,7 @@ function Pakiety (){
                             <p className="mb-[2px]">Dodatkowe podstrony</p>
                             <p className="mb-[2px]">Funkcje niestandardowe</p>
                         </div>
-                        <div className="flex flex-col text-[16px]  font-medium text-gray-500">
+                        <div className="flex flex-col text-[16px]  font-medium text-black opacity-70">
                             <p className="text-[24px] font-bold mb-[30px] text-black">OnePage</p>
                             
                             <p className="mb-[2px]">500zł</p>
@@ -103,7 +103,7 @@ function Pakiety (){
                             <p className="mb-[2px]">-</p>
                             <p className="mb-[2px]">-</p>
                         </div>
-                        <div className="flex flex-col text-[16px]  font-medium text-gray-500">
+                        <div className="flex flex-col text-[16px]  font-medium text-black opacity-70">
                             <p className="text-[24px] font-bold mb-[30px] text-black">Strona Firmowa</p>
                             <p className="mb-[2px]">1000zł</p>
                             <p className="mb-[2px]">Indywidualny</p>
@@ -121,7 +121,7 @@ function Pakiety (){
                             <p className="mb-[2px]">Tak</p>
                             <p className="mb-[2px]">-</p>
                         </div>
-                        <div className="flex flex-col text-[16px] font-medium text-gray-500">
+                        <div className="flex flex-col text-[16px] font-medium text-black opacity-70">
                             <p className="text-[24px] font-bold mb-[30px] text-black">Wycena Indywidualna</p>
                             <p className="mb-[2px]">1500zł + </p>
                             <p className="mb-[2px]">Indywidualny</p>

@@ -19,7 +19,7 @@ function Onas() {
                 <div className=" flex flex-col  w-[450px] h-[675px] justify-center pl-[40px]
                                 max-[800px]:pl-[0px]">
                     <p className="text-black font-bold text-[32px] w-[332px] my-[5px] leading-8">Napiszemy twoją Stronę od podstaw.</p>
-                    <p className="text-black font-normal text-[16px] w-[320px] my-[5px] leading-4">Zajmujemy się tworzeniem nowoczesnych stron internetowych oraz projektami designu strony.</p> 
+                    <p className="text-black font-normal text-[16px] w-[320px] my-[5px] leading-4 opacity-70">Zajmujemy się tworzeniem nowoczesnych stron internetowych oraz projektami designu strony.</p> 
                     <div className="mt-[40px] flex gap-[10px]
                                     max-[800px]:flex-col">
                         <button className="hover:cursor-pointer lqglass flex justify-center items-center w-[177px] rounded-[20px] py-[6px] text-black text-[16px]">

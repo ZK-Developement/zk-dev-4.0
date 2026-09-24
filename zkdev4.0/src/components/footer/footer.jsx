@@ -4,19 +4,19 @@ function Footer (){
             <div className="bg-white rounded-[20px] w-full h-[310px] shadow-[0_-4px_30px_rgba(0,0,0,0.10)] max-[400px]:h-[700px]">
                 <div className="p-[30px] flex gap-[60px] justify-center max-[400px]:flex-col max-[400px]:h-[700px] max-[400px]:p-0 max-[400px]:justify-center max-[400px]:items-center max-[400px]:gap-[5px]">
                     <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-black max-[400px]:h-[160px]">
-                        <p className="text-[10px] text-gray-500">KONTAKT</p>
+                        <p className="text-[10px] text-black opacity-60">KONTAKT</p>
                         <div className="text-[14px] ">
                             <a href="tel:48+791203396"><p className="h-[18px]">tel: +48 (w krótce dostępne)</p></a>
                             <a href="mailto:contactus.zk.business@gmail.com"><p className="h-[18px]">e-mail: contactus.zk.business@gmail.com</p></a>
                         </div>
-                        <div className="text-[14px] text-gray-600">
+                        <div className="text-[14px] text-black opacity-60">
                             <p className="h-[18px]">Poniedziałek—piątek: 10:00-20:00</p>
                             <p className="h-[18px]">Sobota: 14:00-20:00</p>
                         </div>
                     </div>
-                    <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-gray-800">
-                        <p className="text-[10px] text-gray-500">HASŁA STRONY</p>
-                        <div className="text-[14px] font-semibold opacity-75">
+                    <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-black">
+                        <p className="text-[10px] text-black opacity-60">HASŁA STRONY</p>
+                        <div className="text-[14px] font-semibold opacity-65">
                             <p className="h-[18px]">Strony Internetowe Dla firm</p>
                             <p className="h-[18px]">Strony Internetowe Polska</p>
                             <p className="h-[18px]">Design Strony </p>
@@ -30,14 +30,14 @@ function Footer (){
                         </div>
                     </div>
                     <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-black">
-                        <p className="text-[10px] text-gray-500">SOCIAL MEDIA</p>
+                        <p className="text-[10px] text-black opacity-60">SOCIAL MEDIA</p>
                         <div className="text-[14px] mb-[10px]">
-                            <a href="https://www.instagram.com/zk.development" target="blank"><p className="h-[18px]">instagram: zk.development</p></a>
+                            <a href="https://www.instagram.com/zk.development" target="blank"><p className="h-[18px] ">instagram: zk.development</p></a>
                             <p className="h-[18px]">tiktok: in-progress...</p>
 
                         </div>
-                        <p className="text-[10px] text-gray-500">POLITYKA PRYWATNOŚCI</p>
-                        <div className="text-[14px] text-gray-600">
+                        <p className="text-[10px] text-black opacity-60">POLITYKA PRYWATNOŚCI</p>
+                        <div className="text-[14px] text-black opacity-70">
                             <p className="h-[18px] underline cursor-pointer">Polityka Prywatności - w krótce dostępne</p>
                         </div>
                     </div>

@@ -34,10 +34,10 @@ function Kontakt () {
                                            max-[400px]:flex-col ">
                 <div className="h-[675px] w-[400px] flex flex-col gap-[30px] text-black py-[20px] font-medium max-[400px]:gap-[10px] max-[400px]:w-[320px] max-[400px]:h-[250px] ">
                     <p className="text-[24px] font-semibold max-[400px]:text-[15px]">Skontaktuj się z nami</p>
-                    <p className="leading-5 w-[328px] max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px]">Napisz do nas, opisz swój pomysł lub czego potrzebujesz, a postaramy się odpowiedzieć tak szybko, jak będzie to możliwe.</p>
-                    <p className="text-gray-600 w-[280px] max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px]">Napisz do nas lub zadzwoń na 
+                    <p className="leading-5 w-[328px] max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px] opacity-70">Napisz do nas, opisz swój pomysł lub czego potrzebujesz, a postaramy się odpowiedzieć tak szybko, jak będzie to możliwe.</p>
+                    <p className="text-black opacity-65 w-[280px] max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px]">Napisz do nas lub zadzwoń na 
                        +48 (w krótce dostępne)</p>
-                    <div className="text-gray-500 max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px]">
+                    <div className="text-black opacity-50 max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px]">
                         <p>Poniedziałek—piątek: 10:00-20:00</p>
                         <p>Sobota & Niedziela: 14:00-20:00</p>
                     </div>
