@@ -32,8 +32,6 @@ function Footer (){
                         <p className="text-[10px] text-black opacity-60">SOCIAL MEDIA</p>
                         <div className="text-[14px] mb-[10px]">
                             <a href="https://www.instagram.com/zk.development" target="blank"><p className="h-[18px] ">instagram: zk.development</p></a>
-                            <p className="h-[18px]">tiktok: in-progress...</p>
-
                         </div>
                         <p className="text-[10px] text-black opacity-60">POLITYKA PRYWATNOŚCI</p>
                         <div className="text-[14px] text-black opacity-70">
