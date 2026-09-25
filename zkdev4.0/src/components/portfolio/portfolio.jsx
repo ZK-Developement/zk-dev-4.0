@@ -58,7 +58,7 @@ function Portfolio (){
                                 max-[400px]:h-auto max-[400px]:w-[280px] max-[400px]:mt-0 max-[400px]:pl-0
                                 max-[400px]:items-center max-[400px]:text-left">
                     <p className="text-white font-semibold text-[24px] w-[272px] mb-[20px] max-[400px]:text-[16px] max-[400px]:w-full max-[400px]:mb-[8px]">Sprawdź nasze poprzednie projekty</p>
-                    <p className="text-white text-[16px] opacity-50 leading-4.5 w-[316px] mb-[60px] font-light max-[400px]:text-[13px] max-[400px]:leading-4 max-[400px]:w-full max-[400px]:mb-[20px]">Posiadamy Bazę zadowolonych klientów z naszych usług od stron internetowych do designu stron po projekty graficzne.</p>
+                    <p className="text-white text-[16px] opacity-50 leading-4.5 w-[316px] mb-[60px] font-light max-[400px]:text-[13px] max-[400px]:leading-4 max-[400px]:w-full max-[400px]:mb-[20px]">Zobacz przykładowe realizacje, od stron internetowych po projekty graficzne."</p>
                     <a href="#kontakt" ><button className="bg-white hover:bg-[radial-gradient(circle,_#CAC8C8,_#D1D1D1)] transition-all duration-500 w-[221px] h-[43px] text-black font-semibold text-[16px] rounded-[15px] cursor-pointer max-[450px]:hidden">
                         Kontakt</button></a>
                 </div>

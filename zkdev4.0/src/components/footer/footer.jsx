@@ -15,7 +15,7 @@ function Footer (){
                         </div>
                     </div>
                     <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-black">
-                        <p className="text-[10px] text-black opacity-60">HASŁA STRONY</p>
+                        <p className="text-[10px] text-black opacity-60">NASZE SPECJALIZACJE</p>
                         <div className="text-[14px] font-semibold opacity-65">
                             <p className="h-[18px]">Strony Internetowe Dla firm</p>
                             <p className="h-[18px]">Strony Internetowe Polska</p>
@@ -26,7 +26,6 @@ function Footer (){
                             <p className="h-[18px]">Optymalizacja SEO</p>
                             <p className="h-[18px]">Modernizacja istniejących stron</p>
                             <p className="h-[18px]">Projektowanie stron mobilnych</p>
-                            <p className="h-[18px]">Strony Internetowe Dolny Śląsk</p>
                         </div>
                     </div>
                     <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-black">
@@ -43,7 +42,7 @@ function Footer (){
                     </div>
                 </div>
                 <div className="bg-white w-full h-[53px] shadow-[0_-4px_30px_rgba(0,0,0,0.10)] p-[30px] flex absolute justify-center items-center max-[400px]:whitespace-nowrap">
-                    <p className="text-gray-800 opacity-50 text-[13px]">© 2026 Zk Development — Wszelkie prawa zastrzeżone</p>
+                    <p className="text-gray-800 opacity-50 text-[13px]">© 2026 ZK Development — Wszelkie prawa zastrzeżone</p>
                 </div>
             </div>
         </footer>

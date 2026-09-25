@@ -39,7 +39,7 @@ function Kontakt () {
                        +48 (w krótce dostępne)</p>
                     <div className="text-black opacity-50 max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px]">
                         <p>Poniedziałek—piątek: 10:00-20:00</p>
-                        <p>Sobota & Niedziela: 14:00-20:00</p>
+                        <p>Sobota: 14:00-20:00</p>
                     </div>
                     <div className=" mt-[230px] flex items-center max-[400px]:mt-0 max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px]">
                         <span>{result}</span>
