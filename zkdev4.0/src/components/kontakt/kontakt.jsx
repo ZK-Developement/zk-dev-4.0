@@ -36,7 +36,7 @@ function Kontakt () {
                     <p className="text-[24px] font-semibold max-[400px]:text-[15px]">Skontaktuj się z nami</p>
                     <p className="leading-5 w-[328px] max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px] opacity-70">Napisz do nas, opisz swój pomysł lub czego potrzebujesz, a postaramy się odpowiedzieć tak szybko, jak będzie to możliwe.</p>
                     <p className="text-black opacity-65 w-[280px] max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px]">Napisz do nas lub zadzwoń na 
-                       +48 (w krótce dostępne)</p>
+                       +48 (wkrótce dostępne)</p>
                     <div className="text-black opacity-50 max-[400px]:text-[12px] max-[400px]:leading-3.5 max-[400px]:w-[250px]">
                         <p>Poniedziałek—piątek: 10:00-20:00</p>
                         <p>Sobota: 14:00-20:00</p>
