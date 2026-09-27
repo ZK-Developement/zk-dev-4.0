@@ -46,7 +46,7 @@ function Kontakt () {
                     </div>
                 </div>
                 <div className="flex flex-col bg-[radial-gradient(circle,_#393939,_#252525)] h-[633px] w-[717px] rounded-[20px] justify-center items-center text-gray-100 max-[400px]:w-[320px] max-[400px]:h-[533px] ">
-                    <form  onSubmit={onSubmit} className='flex flex-col justify-center items-center'>
+                    <form  onSubmit={onSubmit} className='flex flex-col justify-center items-center cos'>
                         <input className="bg-[#383838] mb-[30px] rounded-[15px] w-[629px] h-[40px] border-2 border-[#656565] pl-[20px] max-[400px]:w-[290px] max-[400px]:mb-[20px]" 
                         type="text" name="name" id="name" required placeholder="Imię i Nazwisko"/>
                         <input className="bg-[#383838] mb-[30px] rounded-[15px] w-[629px] h-[40px] border-2 border-[#656565] pl-[20px] max-[400px]:w-[290px] max-[400px]:mb-[20px]" 
