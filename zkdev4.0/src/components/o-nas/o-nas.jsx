@@ -24,11 +24,11 @@ function Onas() {
                                     max-[800px]:flex-col">
                         <button className="hover:cursor-pointer lqglass flex justify-center items-center w-[177px] rounded-[20px] py-[6px] text-black text-[16px]">
                             <img src={messageicon} alt="message-icon" className="w-[30px] mr-[10px]"/>
-                            Zobacz Oferty
+                            Napisz do nas
                         </button>
                         <button className="hover:cursor-pointer lqglass flex justify-center items-center w-[177px] rounded-[20px] py-[6px] text-black text-[16px]">
                             <img src={offericon} alt="message-icon" className="w-[30px] mr-[10px]"/>
-                            Napisz do nas
+                            Zobacz Oferty
                         </button>
                     </div>
                 </div>
