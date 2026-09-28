@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 import html2canvas from "html2canvas-pro";
-import logoBlack from "../../assets/images/zk-logo-nobg.png"; // czarne logo z przezroczystością
-import logoWhite from "../../assets/images/zk-logo-nobg-white.png"; // białe logo z przezroczystością
+import logoBlack from "../../assets/images/zk-logo-nobg.png"; 
+import logoWhite from "../../assets/images/zk-logo-nobg-white.png"; 
 
 const SCALE = 0.5;
-const THRESHOLD = 140;   // jasność 0-255: poniżej = tło ciemne -> biały tekst / białe logo
+const THRESHOLD = 140; 
 const DARK_TEXT = "rgb(0, 0, 0)";
 const LIGHT_TEXT = "rgb(255, 255, 255)";
 
@@ -22,13 +22,13 @@ function Header() {
         let recaptureTimer = null;
         let cancelled = false;
 
-        // Ustawia kolor tekstów i wariant logo na podstawie gotowego zrzutu (lekkie)
+        
         const applyColors = () => {
             if (!canvas || !ctx) return;
 
             header.querySelectorAll(".tekst-zmienny, .logo-zmienne").forEach((el) => {
                 const rect = el.getBoundingClientRect();
-                if (rect.width === 0 || rect.height === 0) return; // ukryte elementy
+                if (rect.width === 0 || rect.height === 0) return; 
 
                 const x = Math.floor((rect.left + window.scrollX) * SCALE);
                 const y = Math.floor((rect.top + window.scrollY) * SCALE);
@@ -63,7 +63,7 @@ function Header() {
             });
         };
 
-        // Robi zrzut strony (ciężkie – wywoływane rzadko)
+   
         const capture = async () => {
             if (capturing) return;
             capturing = true;
@@ -71,7 +71,7 @@ function Header() {
                 const result = await html2canvas(document.body, {
                     scale: SCALE,
                     useCORS: true,
-                    backgroundColor: "#ffffff", // zamiast przezroczystości
+                    backgroundColor: "#ffffff", 
                     logging: false,
                 });
                 if (cancelled) return;
@@ -85,7 +85,7 @@ function Header() {
             }
         };
 
-        // Debounce – nie rób zrzutu przy każdej drobnej zmianie
+   
         const scheduleCapture = () => {
             clearTimeout(recaptureTimer);
             recaptureTimer = setTimeout(capture, 300);
@@ -109,11 +109,11 @@ function Header() {
         window.addEventListener("resize", handleResize);
         window.addEventListener("load", scheduleCapture);
 
-        // Odśwież zrzut, gdy zmieni się wysokość/zawartość strony
+      
         const observer = new ResizeObserver(scheduleCapture);
         observer.observe(document.body);
 
-        // Pierwszy zrzut po załadowaniu fontów
+  
         if (document.fonts?.ready) {
             document.fonts.ready.then(scheduleCapture);
         } else {

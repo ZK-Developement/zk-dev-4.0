@@ -8,14 +8,18 @@ import Pakiety from './components/pakiety/pakiety'
 import Portfolio from './components/portfolio/portfolio'
 import Kontakt from './components/kontakt/kontakt'
 import Footer from './components/footer/footer'
+import { useState } from "react"
+import Polityka from './components/polityka/polityka'
+
 import "tailwindcss"
 
 function App() {
+  const [polityka, setPolityka] = useState(false)
 
   return (
     <>
       <Header />
-      <main className='flex flex-col w-full justify-center items-center pt-[120px]'>
+      <main className='flex flex-col w-full justify-center items-center pt-[120px] '>
         <Onas />
         <Strona />
         <Oferta />
@@ -24,7 +28,8 @@ function App() {
         <Portfolio />
         <Kontakt />
       </main>
-      <Footer />
+      <Footer onOpenPolityka={() => setPolityka(true)} />
+      <Polityka open={polityka} onClose={() => setPolityka(false)} />
     </>
   )
 }

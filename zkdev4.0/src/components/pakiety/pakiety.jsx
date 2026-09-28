@@ -49,7 +49,7 @@ function Pakiety (){
                         <div className="bg-white flex flex-col shadow-[0_4px_30px_rgba(0,0,0,0.10)] rounded-[16px] p-[16px] bg-center bg-[length:100%_100%]"
                         style={{ backgroundImage: `url(${bgimage})` }}>
                             <p className="text-black text-[22px] font-semibold mb-[4px] mt-[40px]">Wycena Indywidualna</p>
-                            <p className="text-black text-[22px] font-regular mb-[8px]">od 1500zł</p>
+                            <p className="text-black text-[22px] font-regular mb-[8px]">od 1500zł +</p>
                             <p className="text-black text-[13px] font-regular leading-4 mb-[14px] opacity-70">Projekt dopasowany do potrzeb firmy: niestandardowe funkcje, dodatkowe podstrony i integracje. Cena zależy od zakresu.</p>
                             <a href="#kontakt" className="flex justify-center"><button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[15px] h-[42px] w-full rounded-[10px] cursor-pointer">Kontakt</button></a>
                         </div>
@@ -57,9 +57,9 @@ function Pakiety (){
 
                     <p className="text-black text-[18px] font-semibold mt-[24px] mb-[10px]">Porównanie funkcji:</p>
                     <div className="bg-[radial-gradient(circle,_#EDEDED,_#FFFFFF)] rounded-[16px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] px-[12px] py-[12px]">
-                        <div className="grid grid-cols-[1fr_46px_46px_46px] items-end pb-[8px] border-b border-gray-200 text-black text-[11px] font-bold text-center">
-                            <p className="text-left text-[13px]">Funkcja</p>
-                            <p>One Page</p>
+                        <div className="grid grid-cols-[1fr_46px_46px_46px] items-end pb-[8px] border-b border-gray-200 text-black text-[11px] font-medium text-center">
+                            <p className="text-left text-[13px] font-semibold">Funkcja</p>
+                            <p>OneP.</p>
                             <p>Firmowa</p>
                             <p>Indyw.</p>
                         </div>
@@ -120,7 +120,7 @@ function Pakiety (){
                             <div className=" col-span-2 bg-white flex flex-col w-[829px] h-[456px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] rounded-[20px] p-[30px] pt-[190px] bg-center bg-[length:100%_100%]"
                             style={{ backgroundImage: `url(${bgimage})` }}>
                                 <p className="text-black text-[32px] font-semibold mb-[25px]">Wycena Indywidualna</p>
-                                <p className="text-black text-[32px] font-regular mb-[25px]">1500zł</p>
+                                <p className="text-black text-[32px] font-regular mb-[25px]">1500zł + </p>
                                 <p className="text-black text-[15px] font-regular leading-4 w-[700px] mb-[25px] opacity-70">Projekt dopasowany do konkretnych potrzeb firmy. Obejmuje niestandardowe funkcje, dodatkowe podstrony, integracje i rozwiązania, których nie ma w standardowych pakietach. Cena zależy od zakresu projektu.</p>
                                 <div className="flex justify-center">
                                     <a href="#kontakt" ><button className="bg-[radial-gradient(circle,_#393939,_#252525)] hover:bg-[radial-gradient(circle,_#6C6C6C,_#454545)] transition-all duration-500 text-white font-semibold text-[16px] h-[46px] w-[220px] rounded-[10px] cursor-pointer"

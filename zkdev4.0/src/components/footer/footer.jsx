@@ -1,7 +1,8 @@
-function Footer (){
+function Footer ({onOpenPolityka}){
+
     return(
         <footer className="w-full flex my-[29px]">
-            <div className="bg-white rounded-[20px] w-full h-[310px] shadow-[0_-4px_30px_rgba(0,0,0,0.10)] max-[400px]:h-[700px]">
+            <div className="bg-white rounded-[20px] w-full h-[310px] shadow-[0_-4px_30px_rgba(0,0,0,0.10)] max-[400px]:h-[700px] overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
                 <div className="p-[30px] flex gap-[60px] justify-center max-[400px]:flex-col max-[400px]:h-[700px] max-[400px]:p-0 max-[400px]:justify-center max-[400px]:items-center max-[400px]:gap-[5px]">
                     <div className="w-[333px] h-[242px] flex flex-col gap-[10px] p-[20px] text-black max-[400px]:h-[160px]">
                         <p className="text-[10px] text-black opacity-60">KONTAKT</p>
@@ -35,7 +36,7 @@ function Footer (){
                         </div>
                         <p className="text-[10px] text-black opacity-60">POLITYKA PRYWATNOŚCI</p>
                         <div className="text-[14px] text-black opacity-70">
-                            <p className="h-[18px] underline cursor-pointer">Polityka Prywatności - w krótce dostępne</p>
+                            <p onClick={onOpenPolityka} className="h-[18px] underline cursor-pointer">Polityka Prywatności</p>
                         </div>
                     </div>
                 </div>
