@@ -1,16 +1,83 @@
 import bgimage from "../../assets/images/homepage.jpg"
 
+const funkcjeMobile = [
+    ["Design", true, true, true],
+    ["Landing page", true, true, true],
+    ["Sekcje strony", true, true, true],
+    ["Formularz kontaktowy", true, true, true],
+    ["Mapa Google", false, true, true],
+    ["FAQ", false, true, true],
+    ["Animacje na stronie", true, true, true],
+    ["Responsywność", true, true, true],
+    ["Optymalizacja", true, true, true],
+    ["SEO", true, true, true],
+    ["Publikacja strony", true, true, true],
+    ["Runda poprawek", true, true, true],
+    ["Dodatkowe podstrony", false, true, true],
+    ["Funkcje niestandardowe", false, false, true],
+]
+
 function Pakiety (){
     return(
         <section className=" w-[1280px] h-[1590px] flex justify-center items-center mt-[60px]
                             max-[1280px]:w-[1050px] 
-                            max-[400px]:h-[550px] max-[400px]:mt-[30px]" id="pakiety">
+                            max-[400px]:w-full max-[400px]:h-auto max-[400px]:mt-[30px]" id="pakiety">
             <div className="adaptive-bg bg-white w-[1220px] h-[1650px] rounded-[20px] shadow-[0_4px_30px_rgba(0,0,0,0.10)]
                                            flex flex-col pl-[30px] bg-[length:100%_100%] bg-center
                                            max-[1280px]:w-[1050px] 
                                            max-[800px]:w-[740px] max-[800px]:pl-[40px]
-                                           max-[400px]:w-[340px] max-[400px]:pt-[100px] max-[400px]:h-[550px] max-[400px]:bg-[length:100%_100%] max-[400px]:bg-center max-[400px]:pl-[20px]" 
+                                           max-[400px]:w-[340px] max-[400px]:pt-[30px] max-[400px]:pb-[30px] max-[400px]:h-auto max-[400px]:bg-[length:100%_100%] max-[400px]:bg-center max-[400px]:pl-[20px] max-[400px]:pr-[20px]" 
                                            >
+                <div className="hidden max-[400px]:flex flex-col w-full">
+                    <p className="text-black text-[26px] font-semibold mb-[8px] leading-7">Wybierz pakiet:</p>
+                    <p className="text-black text-[14px] font-regular leading-4 opacity-70 mb-[20px]">Wybierz pakiet idealnie dobrany do twoich potrzeb lub wyceń swój projekt.</p>
+
+                    <div className="lqglass flex flex-col rounded-[20px] p-[12px] gap-[12px]">
+                        <div className="bg-white flex flex-col shadow-[0_4px_30px_rgba(0,0,0,0.10)] rounded-[16px] p-[16px]">
+                            <p className="text-black text-[22px] font-semibold mb-[4px] mt-[40px]">One Page</p>
+                            <p className="text-black text-[22px] font-regular mb-[8px]">500zł</p>
+                            <p className="text-black text-[13px] font-regular leading-4 mb-[14px] opacity-70">Prosta i estetyczna strona dla małych firm i usługodawców. Najważniejsze informacje, oferta i kontakt.</p>
+                            <a href="#kontakt" className="flex justify-center"><button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[15px] h-[42px] w-full rounded-[10px] cursor-pointer">Kontakt</button></a>
+                        </div>
+                        <div className="bg-white flex flex-col shadow-[0_4px_30px_rgba(0,0,0,0.10)] rounded-[16px] p-[16px] border-black border-4">
+                            <p className="self-start bg-black px-[12px] py-[1px] text-white text-[12px] font-bold rounded-[20px] mb-[8px] absolute translate-x-[40px] translate-y-[-30px]">Najczęściej wybierane</p>
+                            <p className="text-black text-[22px] font-semibold mb-[4px] mt-[40px]">Strona Firmowa</p>
+                            <p className="text-black text-[22px] font-regular mb-[8px]">1000zł</p>
+                            <p className="text-black text-[13px] font-regular leading-4 mb-[14px] opacity-70">Kompletna strona firmowa z osobnymi podstronami: Strona główna, O firmie, Oferta, Galeria i Kontakt.</p>
+                            <a href="#kontakt" className="flex justify-center"><button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[15px] h-[42px] w-full rounded-[10px] cursor-pointer">Kontakt</button></a>
+                        </div>
+                        <div className="bg-white flex flex-col shadow-[0_4px_30px_rgba(0,0,0,0.10)] rounded-[16px] p-[16px] bg-center bg-[length:100%_100%]"
+                        style={{ backgroundImage: `url(${bgimage})` }}>
+                            <p className="text-black text-[22px] font-semibold mb-[4px] mt-[40px]">Wycena Indywidualna</p>
+                            <p className="text-black text-[22px] font-regular mb-[8px]">od 1500zł</p>
+                            <p className="text-black text-[13px] font-regular leading-4 mb-[14px] opacity-70">Projekt dopasowany do potrzeb firmy: niestandardowe funkcje, dodatkowe podstrony i integracje. Cena zależy od zakresu.</p>
+                            <a href="#kontakt" className="flex justify-center"><button className="bg-[radial-gradient(circle,_#393939,_#252525)] text-white font-semibold text-[15px] h-[42px] w-full rounded-[10px] cursor-pointer">Kontakt</button></a>
+                        </div>
+                    </div>
+
+                    <p className="text-black text-[18px] font-semibold mt-[24px] mb-[10px]">Porównanie funkcji:</p>
+                    <div className="bg-[radial-gradient(circle,_#EDEDED,_#FFFFFF)] rounded-[16px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] px-[12px] py-[12px]">
+                        <div className="grid grid-cols-[1fr_46px_46px_46px] items-end pb-[8px] border-b border-gray-200 text-black text-[11px] font-bold text-center">
+                            <p className="text-left text-[13px]">Funkcja</p>
+                            <p>One Page</p>
+                            <p>Firmowa</p>
+                            <p>Indyw.</p>
+                        </div>
+                        {funkcjeMobile.map(([nazwa, a, b, c]) => (
+                            <div key={nazwa} className="grid grid-cols-[1fr_46px_46px_46px] items-center py-[5px] border-b border-gray-100 text-[12px] font-medium text-black">
+                                <p className="opacity-90 leading-3.5">{nazwa}</p>
+                                {[a, b, c].map((v, i) => (
+                                    <p key={i} className={`text-center text-[18px] font-normal leading-none ${v ? "text-black" : "text-black opacity-60"}`}>{v ? "+" : "−"}</p>
+                                ))}
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-[12px] text-black opacity-60 leading-4 mt-[10px]">Dokładniejsze informacje o pakietach (np. zakres SEO czy design) są dostępne w wersji na komputer.</p>
+
+                    <p className="text-black text-[18px] font-semibold mt-[24px] mb-[6px] leading-5">Nie wiesz, który pakiet wybrać?</p>
+                    <p className="text-black text-[13px] font-regular leading-4 opacity-70">Dobierzemy rozwiązanie do Twojej firmy, budżetu i potrzeb. Każdy projekt możemy dostosować do konkretnych wymagań.</p>
+                </div>
+
                 <div className="flex max-[400px]:hidden">
                     <div className="flex flex-col h-[993px] w-[250px] mr-[30px] pt-[60px] ">
                         <div className="mb-[630px]">
