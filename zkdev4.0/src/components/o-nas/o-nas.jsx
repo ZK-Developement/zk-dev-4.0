@@ -4,8 +4,6 @@ import messageicon from "../../assets/images/messageicon.svg"
 import offericon from "../../assets/images/offericon.svg"
 import phone from "../../assets/images/phone.png"
 
-{*siemanko*}
-
 function Onas() {
     return (
         <section className=" w-[1280px] h-[675px] flex justify-center items-center
