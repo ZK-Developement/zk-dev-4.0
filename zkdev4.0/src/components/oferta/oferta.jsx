@@ -48,7 +48,7 @@ function Oferta (){
                         <div className="bg-[radial-gradient(circle,_#4C4C4C,_#3B3B3B)] flex flex-col w-[620px] h-[234px] rounded-[20px] shadow-[0_4px_30px_rgba(0,0,0,0.10)] pt-[24px] pl-[31px]
                                         max-[400px]:w-[300px]  max-[400px]:h-[400px]  max-[400px]:pt-[14px]  max-[400px]:pl-[13px]">
                             <p className="text-[16px] font-bold text-white mb-[6px]">Profesjonalna strona internetowa</p>
-                            <p className="text-[13px] font-normal text-white opacity-70 w-[487px] leading-4 max-[400px]:w-[290px] max-[400px]:mb-[14px]">Tworzymy profesjonalne strony internetowe dopasowane do potrzeb Twojej firmy. Wykorzystujemy nowoczesne technologie, dbając o wygląd, szybkość działania, responsywność oraz wygodę użytkowników.</p>
+                            <p className="text-[13px] font-normal text-white opacity-70 w-[487px] leading-4 max-[400px]:w-[290px] max-[400px]:mb-[14px]">Tworzymy profesjonalne strony internetowe dopasowane do potrzeb Twojej Firmy. Wykorzystujemy nowoczesne technologie, dbając o wygląd, szybkość działania, responsywność oraz wygodę użytkowników.</p>
                         </div>
                     </div>
                     <div className="flex w-[899px] h-[234px] gap-[34px] max-[400px]:flex-col max-[400px]:gap-[14px] max-[400px]:mt-[149px] ">
