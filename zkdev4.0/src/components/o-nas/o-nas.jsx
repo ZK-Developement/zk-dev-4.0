@@ -18,7 +18,7 @@ function Onas() {
                                >
                 <div className=" flex flex-col  w-[450px] h-[675px] justify-center
                                 max-[800px]:pl-[0px]">
-                    <p className="bg-gradient-to-b from-[#121212] to-[#383838] text-transparent bg-clip-text font-semibold text-[60px] w-[538px] mb-[22px] leading-[70px] hero-font">Napiszemy twoją Stronę od podstaw.</p>
+                    <p className="bg-gradient-to-b from-[#121212] to-[#383838] text-transparent bg-clip-text font-semibold text-[60px] w-[538px] h-[155px] mb-[2px] leading-[70px] hero-font">Napiszemy twoją Stronę od podstaw.</p>
                     <p className="text-black font-medium text-[24px] w-[520px] my-[5px] bg-gradient-to-b from-[#333333] to-[#383838] text-transparent bg-clip-text">Zajmujemy się tworzeniem nowoczesnych stron internetowych oraz projektami designu strony.</p> 
                     <div className="mt-[26px] flex gap-[10px]
                                     max-[800px]:flex-col">
