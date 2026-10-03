@@ -99,3 +99,7 @@ p{
 .hero-font{
     font-family: 'Playfair Display', serif;
 }
+html,
+body {
+    overflow-x: hidden;
+}
