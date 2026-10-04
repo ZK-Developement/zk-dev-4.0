@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import arrow from "../../assets/images/arrow.svg"
 
 const modules = import.meta.glob(
@@ -37,13 +37,44 @@ function Portfolio (){
     const { width: SLIDE_W, height: SLIDE_H, step: STEP } = isMobile ? SIZES.mobile : SIZES.desktop
     const total = slides.length || 1
 
+    const sectionRef = useRef(null)
+    const [show, setShow] = useState(false)
+
+    useEffect(() => {
+        const section = sectionRef.current
+        if (!section) return
+
+        let t = null
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (!entry.isIntersecting) return
+                setShow(true)
+                observer.disconnect() // animacja tylko raz
+                // Header ma ponownie dobrać kolory po animacji
+                t = setTimeout(() => window.dispatchEvent(new Event("resize")), 1600)
+            },
+            { threshold: 0.25 }
+        )
+        observer.observe(section)
+
+        return () => {
+            observer.disconnect()
+            clearTimeout(t)
+        }
+    }, [])
+
+    const fromLeft = `transition-all duration-700 ease-out ${show ? "opacity-100 translate-x-0" : "opacity-0 translate-x-[-40px]"}`
+    const fromBottom = `transition-all duration-700 ease-out ${show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-[40px]"}`
+    const fade = `transition-opacity duration-700 ease-out ${show ? "opacity-100" : "opacity-0"}`
+    const delay = (ms) => ({ transitionDelay: show ? `${ms}ms` : "0ms" })
+
     const next = () => setIndex((i) => (i + 1) % total)
     const prev = () => setIndex((i) => (i - 1 + total) % total)
 
     const FADE = `linear-gradient(to right, transparent 0%, black calc(50% - ${SLIDE_W / 2}px), black calc(50% + ${SLIDE_W / 2}px), transparent 100%)`
 
     return(
-        <section className=" w-[1280px] h-[401px] flex justify-center items-center mt-[60px]
+        <section ref={sectionRef} className=" w-[1280px] h-[401px] flex justify-center items-center mt-[60px]
                             max-[1280px]:w-[1050px]
                             max-[800px]:w-[740px]
                             max-[400px]:w-full max-[400px]:h-auto max-[400px]:px-[20px]" id="portfolio">
@@ -54,16 +85,16 @@ function Portfolio (){
                                            max-[400px]:w-full max-[400px]:h-[410px] max-[400px]:pl-0 max-[400px]:py-[20px]
                                            max-[400px]:flex-col max-[400px]:items-center max-[400px]:gap-[16px] "
             >
-                <div className=" flex flex-col h-[301px] w-[400px] justify-center mt-[80px] pl-[30px]
+                <div className={` flex flex-col h-[301px] w-[400px] justify-center mt-[80px] pl-[30px]
                                 max-[400px]:h-auto max-[400px]:w-[280px] max-[400px]:mt-0 max-[400px]:pl-0
-                                max-[400px]:items-center max-[400px]:text-left">
+                                max-[400px]:items-center max-[400px]:text-left ${fromLeft}`} style={delay(100)}>
                     <p className="text-white font-semibold text-[24px] w-[272px] mb-[20px] max-[400px]:text-[16px] max-[400px]:w-full max-[400px]:mb-[8px]">Sprawdź nasze poprzednie projekty</p>
                     <p className="text-white text-[16px] opacity-50 leading-4.5 w-[316px] mb-[60px] font-light max-[400px]:text-[13px] max-[400px]:leading-4 max-[400px]:w-full max-[400px]:mb-[20px]">Zobacz przykładowe realizacje,<br /> od stron internetowych po projekty graficzne.</p>
-                    <a href="#kontakt" ><button className="bg-white hover:bg-[radial-gradient(circle,_#CAC8C8,_#D1D1D1)] transition-all duration-500 w-[221px] h-[43px] text-black font-semibold text-[16px] rounded-[15px] cursor-pointer max-[450px]:hidden">
+                    <a href="#kontakt" className={`inline-block ${fade}`} style={delay(400)}><button className="bg-white hover:bg-[radial-gradient(circle,_#CAC8C8,_#D1D1D1)] transition-all duration-500 w-[221px] h-[43px] text-black font-semibold text-[16px] rounded-[15px] cursor-pointer max-[450px]:hidden">
                         Kontakt</button></a>
                 </div>
                 <div className="min-[500px]:translate-y-[50px] min-[500px]:translate-x-[-40px] relative flex-1 min-w-0 w-full max-[400px]:flex-none max-[400px]:w-[280px] max-[400px]:translate-y-[-30px]" style={{ height: SLIDE_H + 32 }}>
-                    <div className="absolute inset-0 overflow-hidden" style={{ maskImage: FADE, WebkitMaskImage: FADE }}>
+                    <div className={`absolute inset-0 overflow-hidden ${fromBottom}`} style={{ maskImage: FADE, WebkitMaskImage: FADE, ...delay(300) }}>
                     {slides.map((p, i) => {
                         let offset = (((i - index) % total) + total) % total
                         if (offset > total / 2) offset -= total
@@ -94,15 +125,15 @@ function Portfolio (){
                         );
                     })}
                     </div>
-                    <button onClick={prev} aria-label="Poprzedni projekt" className="h-[35px] w-[35px] absolute left-[10px] top-1/2 -translate-y-1/2 z-10 bg-[#D9D9D910] rounded-[10px] cursor-pointer rotate-[180deg] shadow-[0_4px_30px_rgba(0,0,0,0.10)]
-                                                                                     max-[400px]:translate-x-[-30px]">
+                    <button onClick={prev} aria-label="Poprzedni projekt" style={delay(800)} className={`h-[35px] w-[35px] absolute left-[10px] top-1/2 -translate-y-1/2 z-10 bg-[#D9D9D910] rounded-[10px] cursor-pointer rotate-[180deg] shadow-[0_4px_30px_rgba(0,0,0,0.10)]
+                                                                                     max-[400px]:translate-x-[-30px] ${fade}`}>
                         <img src={arrow} alt="arrow" />
                     </button>
-                    <button onClick={next} aria-label="Następny projekt" className="h-[35px] w-[35px] absolute right-[10px] top-1/2 -translate-y-1/2 z-10 bg-[#D9D9D910] rounded-[10px] cursor-pointer shadow-[0_4px_30px_rgba(0,0,0,0.10)]
-                                                                                     max-[400px]:translate-x-[30px]">
+                    <button onClick={next} aria-label="Następny projekt" style={delay(800)} className={`h-[35px] w-[35px] absolute right-[10px] top-1/2 -translate-y-1/2 z-10 bg-[#D9D9D910] rounded-[10px] cursor-pointer shadow-[0_4px_30px_rgba(0,0,0,0.10)]
+                                                                                     max-[400px]:translate-x-[30px] ${fade}`}>
                         <img src={arrow} alt="arrow" />
                     </button>
-                    <div className="flex justify-center mt-[220px] min-[450px]:hidden ">
+                    <div className={`flex justify-center mt-[220px] min-[450px]:hidden ${fade}`} style={delay(500)}>
                         <a href="#kontakt" ><button className="bg-white hover:bg-[radial-gradient(circle,_#CAC8C8,_#D1D1D1)] transition-all duration-500 w-[221px] h-[43px] text-black font-semibold text-[16px] rounded-[15px] cursor-pointer ">
                         Kontakt</button></a>
                     </div>

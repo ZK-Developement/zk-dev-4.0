@@ -21,7 +21,6 @@ function App() {
       <Header />
       <main className='flex flex-col w-full justify-center items-center pt-[120px] '>
         <Onas />
-        <Strona />
         <Oferta />
         <Design />
         <Pakiety />
