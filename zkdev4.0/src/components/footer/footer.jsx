@@ -13,8 +13,7 @@ function Footer ({onOpenPolityka}){
             ([entry]) => {
                 if (!entry.isIntersecting) return;
                 setShow(true);
-                observer.disconnect(); // animacja tylko raz
-                // Header ma ponownie dobrać kolory po animacji
+                observer.disconnect(); 
                 t = setTimeout(() => window.dispatchEvent(new Event("resize")), 1500);
             },
             { threshold: 0.15 }

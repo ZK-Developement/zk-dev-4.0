@@ -26,7 +26,7 @@ const anim = (show, dir = "bottom") =>
     `transition-all duration-700 ease-out ${show ? "opacity-100 translate-x-0 translate-y-0" : hiddenState[dir]}`;
 const delay = (show, ms) => ({ transitionDelay: show ? `${ms}ms` : "0ms" });
 
-// odpala się raz, gdy element wejdzie w widok
+
 function useReveal(threshold = 0.15) {
     const ref = useRef(null);
     const [show, setShow] = useState(false);
@@ -41,7 +41,6 @@ function useReveal(threshold = 0.15) {
                 if (!entry.isIntersecting) return;
                 setShow(true);
                 observer.disconnect();
-                // Header ma ponownie dobrać kolory po animacji
                 t = setTimeout(() => window.dispatchEvent(new Event("resize")), 1800);
             },
             { threshold }

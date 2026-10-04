@@ -18,8 +18,7 @@ function Oferta (){
             ([entry]) => {
                 if (!entry.isIntersecting) return;
                 setShow(true);
-                observer.disconnect(); // animacja tylko raz
-                // po animacji przelicz kolory w Headerze (screenshot strony był zrobiony, gdy karty były jeszcze ukryte)
+                observer.disconnect(); 
                 t = setTimeout(() => window.dispatchEvent(new Event("resize")), 1800);
             },
             { threshold: 0.25 }

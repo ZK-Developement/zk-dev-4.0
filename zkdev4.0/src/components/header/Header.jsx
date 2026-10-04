@@ -13,11 +13,10 @@ function Header() {
     const [visible, setVisible] = useState(false);
     const [expanded, setExpanded] = useState(false);
 
-    // animacja wejścia: fade-in -> rozwinięcie
+  
     useEffect(() => {
         const t1 = setTimeout(() => setVisible(true), 50);
         const t2 = setTimeout(() => setExpanded(true), 800);
-        // po animacji przelicz kolory (linki nav miały wcześniej szerokość 0)
         const t3 = setTimeout(() => window.dispatchEvent(new Event("resize")), 1700);
         return () => {
             clearTimeout(t1);

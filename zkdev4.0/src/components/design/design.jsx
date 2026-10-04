@@ -14,8 +14,7 @@ function Design (){
             ([entry]) => {
                 if (!entry.isIntersecting) return;
                 setShow(true);
-                observer.disconnect(); // animacja tylko raz
-                // po animacji Header ma ponownie dobrać kolory (screenshot był zrobiony, gdy elementy były ukryte)
+                observer.disconnect();
                 t = setTimeout(() => window.dispatchEvent(new Event("resize")), 1600);
             },
             { threshold: 0.25 }
