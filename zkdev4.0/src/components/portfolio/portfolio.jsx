@@ -109,7 +109,7 @@ function Portfolio (){
                                         if (isVisible) setIndex(i)
                                     }
                                 }}
-                                className="absolute left-1/2 top-1/2 rounded-[30px] overflow-hidden bg-[#424242]"
+                                className="absolute left-1/2 top-1/2 rounded-[30px] overflow-hidden bg-[#424242] shadow-[0_4px_20px_rgba(0,0,0,0.40)]"
                                 style={{
                                     width: SLIDE_W,
                                     height: SLIDE_H,
